@@ -29,7 +29,7 @@ class Listener {
         if (this.listenerSocket !== null) return false;
         this.logger.debug(`listener opening at ${this.settings.listeningPort}`);
         this.listenerSocket = new WebSocketServer({
-            port: this.settings.listeningPort,
+            port: this.settings.process.env.PORT || 3000,
             verifyClient: this.verifyClient.bind(this)
         }, this.onOpen.bind(this));
         this.listenerSocket.on("connection", this.onConnection.bind(this));
