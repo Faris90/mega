@@ -27,13 +27,13 @@ const value = Object.seal({
 
     worldPlayerBotsPerWorld: 0,
     worldPlayerBotNames: [],
-    worldMinionsPerPlayer: 0,
+    worldMinionsPerPlayer: 10,
     worldMaxPlayers: 50,
     worldMaxCount: 2,
     matchmakerNeedsQueuing: false,
     matchmakerBulkSize: 1,
 
-    minionName: "Minion",
+    minionName: "M",
     minionSpawnSize: 32,
     minionEnableERTPControls: false,
     minionEnableQBasedControl: true,
