@@ -11,9 +11,9 @@ const value = Object.seal({
     listeningPort: 443,
 
     serverFrequency: 25,
-    serverName: "An unnamed server",
+    serverName: "XXAGARIO",
     serverGamemode: "FFA",
-    serverChatEnabled: true,
+    serverChatEnabled: false,
 
     worldMapX: 0,
     worldMapY: 0,
@@ -39,7 +39,7 @@ const value = Object.seal({
     minionEnableQBasedControl: true,
 
     pelletMinSize: 10,
-    pelletMaxSize: 20,
+    pelletMaxSize: 32,
     pelletGrowTicks: 25 * 60,
     pelletCount: 1000,
 
@@ -72,11 +72,11 @@ const value = Object.seal({
     playerMaxNameLength: 16,
 
     playerMinSize: 32,
-    playerSpawnSize: 32,
+    playerSpawnSize: 64,
     playerMaxSize: 1500,
     playerMinSplitSize: 60,
     playerMinEjectSize: 60,
-    playerMaxCells: 16,
+    playerMaxCells: 64,
 
     playerMoveMult: 1,
     playerSplitBoost: 780,
@@ -84,7 +84,7 @@ const value = Object.seal({
     playerNoMergeDelay: 15,
     /** @type {"old" | "new"} */
     playerMergeVersion: "old",
-    playerMergeTime: 30,
+    playerMergeTime: 0.1,
     playerMergeTimeIncrease: 0.02,
     playerDecayMult: 0.001
 });
