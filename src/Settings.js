@@ -27,7 +27,7 @@ const value = Object.seal({
 
     worldPlayerBotsPerWorld: 0,
     worldPlayerBotNames: [],
-    worldMinionsPerPlayer: 10,
+    worldMinionsPerPlayer: 0,
     worldMaxPlayers: 50,
     worldMaxCount: 2,
     matchmakerNeedsQueuing: false,
@@ -39,7 +39,7 @@ const value = Object.seal({
     minionEnableQBasedControl: true,
 
     pelletMinSize: 10,
-    pelletMaxSize: 32,
+    pelletMaxSize: 53.85,
     pelletGrowTicks: 25 * 60,
     pelletCount: 1000,
 
@@ -47,7 +47,7 @@ const value = Object.seal({
     virusMaxCount: 90,
     virusSize: 100,
     virusFeedTimes: 7,
-    virusPushing: false,
+    virusPushing: true,
     virusSplitBoost: 780,
     virusPushBoost: 120,
     virusMonotonePops: false,
