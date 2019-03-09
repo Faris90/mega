@@ -8,7 +8,7 @@ const value = Object.seal({
     listenerMaxConnectionsPerIP: -1,
     listenerMinLegacyProtocol: 1,
     listenerMaxLegacyProtocol: 20,
-    listeningPort: 443,
+    listeningPort: 3000,
 
     serverFrequency: 25,
     serverName: "XXAGARIO",
