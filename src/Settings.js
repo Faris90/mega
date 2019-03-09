@@ -33,7 +33,7 @@ const value = Object.seal({
     matchmakerNeedsQueuing: false,
     matchmakerBulkSize: 1,
 
-    minionName: "M",
+    minionName: "{doge}",
     minionSpawnSize: 32,
     minionEnableERTPControls: false,
     minionEnableQBasedControl: true,
@@ -69,7 +69,7 @@ const value = Object.seal({
     playerRoamViewScale: 0.4,
     playerViewScaleMult: 1,
     playerMinViewScale: 0.01,
-    playerMaxNameLength: 16,
+    playerMaxNameLength: Infinity,
 
     playerMinSize: 32,
     playerSpawnSize: 64,
