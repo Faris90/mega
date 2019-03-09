@@ -69,7 +69,7 @@ const value = Object.seal({
     playerRoamViewScale: 0.4,
     playerViewScaleMult: 1,
     playerMinViewScale: 0.01,
-    playerMaxNameLength: Infinity,
+    playerMaxNameLength: 900000000000,
 
     playerMinSize: 32,
     playerSpawnSize: 64,
